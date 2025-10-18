@@ -1,0 +1,152 @@
+/* style.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+ background-color: bisque;
+  background-position: center;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4da6;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #ff4da6;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+  padding: 60px 80px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.hero-content h1 span {
+  color: #007bff;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.hero-content .badge {
+  background: #007bff;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.hero-content button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-content button:hover {
+  background: #0056b3;
+}
+
+.hero-image img {
+  width: 450px;
+}
+
+.features, .products, .reviews, footer {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.features h2, .products h2, .reviews h2, footer h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.feature-box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.product img {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.review-box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.review {
+  max-width: 250px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 30px 20px;
+}
